@@ -1,6 +1,7 @@
 import { TbRibbonHealth } from "react-icons/tb";
 import PatientForm from "./components/forms/PatientForm";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,12 +17,15 @@ export default function Home() {
 
               <div className="mt-20 flex justify-between">
                <p className="justify-end"> &copy; TeleHealth 2024</p>
+               <Link href="/?admin=true" className="text-green-500">
+              Admin
+            </Link>
               </div>
           </div>
       </section>
       <div className="w-[50%] h-screen">
         <Image
-        src='https://images.pexels.com/photos/4210557/pexels-photo-4210557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+        src='/telehealthmain.jpg'
         width={1000}
         height={1000}
         alt="Two medical needles"
