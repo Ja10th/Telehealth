@@ -29,6 +29,7 @@ export default function Home() {
         width={1000}
         height={1000}
         alt="Two medical needles"
+        priority
         className="w-full h-full rounded-xl object-cover object-fit"
         />
       </div>
