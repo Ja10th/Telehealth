@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className={cn("font antialiased min-h-screen")}>
         <ThemeProvider
         attribute="class"
-        defaultTheme="dark"
+        defaultTheme="light"
         >{children}</ThemeProvider>
       </body>
     </html>

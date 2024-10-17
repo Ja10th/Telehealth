@@ -10,7 +10,7 @@ export default function Home() {
       <section className="w-[50%] max-w-xl pt-32 mx-auto ">
           <div>
             <div className="flex justify-start items-center">
-            <TbRibbonHealth  className="text-3xl"/>
+            <TbRibbonHealth  className="text-3xl text-blue-500"/>
               <h1>TeleHealth</h1>
             </div>
               <PatientForm />
